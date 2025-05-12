@@ -1875,7 +1875,7 @@ class ARCHInMean(ARX):
 
 def arch_model(
     y: Optional[ArrayLike],
-    x: Optional[Union[ArrayLike, ArrayLike2D]] = None,
+    x: Optional[Union[ArrayLike, ArrayLike2D]],
     mean: Literal[
         "Constant", "Zero", "LS", "AR", "ARX", "HAR", "HARX", "constant", "zero"
     ] = "Constant",
